@@ -1,0 +1,5 @@
+{
+  "item.ocsable.sable_card": "Sable Card",
+  "item.ocsable.sable_card.tooltip": "An extension of the Navigation Card for further Sable integration! Unfortunately, the upgrade has stripped the former Navigation Card functionality.",
+  "ocsable.tooltip.toolong": "§7Hold [§f%s§7] for a detailed tooltip."
+}

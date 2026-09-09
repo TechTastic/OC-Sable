@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "N": {
+      "item": "opencomputers:navigationcard"
+    },
+    "C": {
+      "item": "opencomputers:cu"
+    },
+    "c": {
+      "item": "opencomputers:chip2"
+    },
+    "a": {
+      "item": "opencomputers:alu"
+    }
+  },
+  "pattern": [
+    "aCc",
+    " N"
+  ],
+  "result": {
+    "count": 1,
+    "id": "ocsable:sable_card"
+  }
+}
