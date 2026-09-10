@@ -118,8 +118,8 @@ public class SableEnvironment extends AbstractManagedEnvironment {
         return new Object[] {sublevel == null ? null : sublevel.getMassTracker().getInverseInertiaTensor()};
     }
 
-    @Callback(getter = true)
-    public Object[] airPressure(final Context context, final Arguments args) {
+    @Callback
+    public Object[] getAirPressure(final Context context, final Arguments args) {
         return new Object[] {DimensionPhysicsData.getAirPressure(this.host.getEnvironmentLevel(), new Vector3d(args.checkDouble(0), args.checkDouble(1), args.checkDouble(2)))};
     }
 
