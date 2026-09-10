@@ -34,4 +34,4 @@ This is similar in functionality to [**CC: Sable**](https://modrinth.com/mod/cc-
 
 ### FAQ
 Q) Why should I use this over Aeronautic's existing computer behaviour?  
-A) You don't have to at all. While my card does give far greater access to internal physics information, it is not impossible to derive most of these values using the existing drivers.***However, this is an addon for Sable, not Aeronautics!*** While the two will likely be used together, others can use Sable without Aeronautics at all!
+A) You don't have to at all. While my card does give far greater access to internal physics information, it is not impossible to derive most of these values using the existing drivers. ***However, this is an addon for Sable, not Aeronautics!*** While the two will likely be used together, others can use Sable without Aeronautics at all!
