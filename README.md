@@ -27,8 +27,6 @@ This is similar in functionality to [**CC: Sable**](https://modrinth.com/mod/cc-
     - `defaultDimensionPhysics` - field: the default dimension physics settings as a table  
 
 ### To Do:
-- Manual Entry
-- Creative Tab
 - Physics-Enabled Drones
 - Separate CC: Advanced Math clone for OC
 
