@@ -5,10 +5,10 @@
     "N": {
       "item": "opencomputers:navigationcard"
     },
-    "C": {
+    "c": {
       "item": "opencomputers:cu"
     },
-    "c": {
+    "m": {
       "item": "opencomputers:chip2"
     },
     "a": {
@@ -16,8 +16,9 @@
     }
   },
   "pattern": [
-    "aCc",
-    " N"
+    "acm",
+    " N ",
+    "   "
   ],
   "result": {
     "count": 1,
