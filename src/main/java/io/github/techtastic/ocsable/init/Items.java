@@ -1,6 +1,5 @@
 package io.github.techtastic.ocsable.init;
 
-import li.cil.oc.Constants;
 import li.cil.oc.client.KeyBindings;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;

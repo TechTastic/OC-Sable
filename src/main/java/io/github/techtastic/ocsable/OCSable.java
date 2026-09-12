@@ -5,29 +5,17 @@ import io.github.techtastic.ocsable.oc.JOMLConverter;
 import io.github.techtastic.ocsable.oc.SableCardDriver;
 import io.github.techtastic.ocsable.oc.SableConverters;
 import li.cil.oc.Constants;
-import li.cil.oc.OpenComputers;
 import li.cil.oc.api.Driver;
 import li.cil.oc.api.Manual;
-import li.cil.oc.api.manual.ContentProvider;
 import li.cil.oc.api.manual.PathProvider;
-import li.cil.oc.api.manual.TabIconRenderer;
 import li.cil.oc.api.prefab.ResourceContentProvider;
-import li.cil.oc.api.prefab.SpriteTabIconRenderer;
-import net.minecraft.client.Minecraft;
-import net.minecraft.client.gui.GuiGraphics;
-import net.minecraft.client.resources.language.LanguageInfo;
-import net.minecraft.client.resources.language.LanguageManager;
 import net.minecraft.core.BlockPos;
-import net.minecraft.locale.Language;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.neoforged.neoforge.common.data.LanguageProvider;
-import net.neoforged.neoforge.server.LanguageHook;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -35,9 +23,6 @@ import com.mojang.logging.LogUtils;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.ModContainer;
-
-import java.util.List;
-import java.util.Objects;
 
 @Mod(OCSable.MODID)
 public class OCSable {
